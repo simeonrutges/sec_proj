@@ -1,0 +1,15 @@
+# Virtual environments
+.venv/
+
+# Robot Framework output files
+log.html
+report.html
+output.xml
+
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# VSCode settings (behalve launch.json)
+.vscode/*
+!.vscode/launch.json
