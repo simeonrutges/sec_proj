@@ -1,0 +1,5 @@
+services:
+  sec-proj:
+    env_file:
+      - .env
+
