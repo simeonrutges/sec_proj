@@ -1,19 +1,25 @@
-# Virtual environments
-.venv/
-
-# Local environment files
-.env
-
-# Byte-compiled / cache
+# Python
 __pycache__/
 *.pyc
+.venv/
 
-# VSCode settings (behalve launch.json)
-.vscode/*
-!.vscode/launch.json
-
-# Robot Framework outputs
+# Robot Framework results
 results/
+output.xml
 log.html
 report.html
-output.xml
+
+# Env vars
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Keep scripts (we commit .sh and .bat, useful cross-platform)
+# run-dev.sh   (Linux/Mac/Pi)
+# run-dev.bat  (Windows)
+# run-prod.sh  (Pi/Linux/Mac)
