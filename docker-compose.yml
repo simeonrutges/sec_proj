@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  sec-proj:
+    image: sec_proj:latest
+    build:
+      context: .
+    env_file:
+      - /home/nge045/.sec_proj.env
+    volumes:
+      - ./:/app
+      - ./results:/app/results
+    command: ["robot", "-d", "results", "tests"]
