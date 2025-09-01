@@ -13,3 +13,5 @@ __pycache__/
 # VSCode settings (behalve launch.json)
 .vscode/*
 !.vscode/launch.json
+
+.env
